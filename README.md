@@ -53,6 +53,7 @@ The deployed Logistic Regression model achieved the following performance metric
    pip install pandas numpy scikit-learn joblib
    ```
 3.Place the Telco_Customer_Churn_Dataset.csv in the root directory.
+
 4. Execute each task script sequentially to follow the pipeline:
 ```bash
 python task1_data_prep.py
