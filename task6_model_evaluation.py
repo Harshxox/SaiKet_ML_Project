@@ -57,5 +57,3 @@ print("="*50)
 
 print("\nDetailed Classification Report:")
 print(classification_report(y_test, y_pred, target_names=["No Churn (0)", "Churn (1)"]))
-
-print("\n🎉 ALL TASKS COMPLETE! You are ready to record your LinkedIn video.")
