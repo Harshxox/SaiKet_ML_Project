@@ -1,7 +1,6 @@
 # Customer Churn Analysis and Prediction 
 
 **Author:** HARSHDEEP SHARMA  
-**ID:** 2460370  
 **Organization:** SaiKet Systems (MSME Internship Program)  
 
 ## 📌 Project Overview
@@ -52,11 +51,13 @@ The deployed Logistic Regression model achieved the following performance metric
 2. Install the required dependencies:
    ```bash
    pip install pandas numpy scikit-learn joblib
-```
+   ```
+
 3.Place the Telco_Customer_Churn_Dataset.csv in the root directory.
+
 4. Execute each task script sequentially to follow the pipeline:
-   ```bash
-   python task1_data_prep.py
+```bash
+python task1_data_prep.py
 python task2_data_split.py
 python task3_feature_selection.py
 python task4_model_selection.py
